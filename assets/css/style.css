@@ -396,3 +396,11 @@ border-bottom-right-radius: 24px !important;
 .copyright-container{background-color:#fff;padding:10px 0px}
 .copyright-container p{color:#4A2E87;font-size:16px;}
 
+@media screen and (max-width:768px){
+  
+
+.content span {
+    height: 80px;   top: 22px;}
+.channels-content span{  height: 80px;   top: 22px;}
+
+}
