@@ -1,0 +1,398 @@
+﻿@font-face {
+    font-family: "din";
+    src: url("../fonts/DIN NEXT™ ARABIC REGULAR.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "din meduim";
+    src: url("../fonts/DIN NEXT™ ARABIC MEDIUM .otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded";
+    src: url("../fonts/GothamRnd-Book.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded bold";
+    src: url("../fonts/GothamRnd-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded medium";
+    src: url("../fonts/GothamRnd-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded lighter";
+    src: url("../fonts/GothamRnd-Light.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url("../fonts/JF-Flat-regular.eot");
+    src: url("../fonts/JF-Flat-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/JF-Flat-regular.svg#JF Flat Regular") format("svg"), url("../fonts/JF-Flat-regular.woff") format("woff"), url("../fonts/JF-Flat-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Granadia-Bold";
+    src: url("../fonts/Granadia-Bold.eot");
+    src: url("../fonts/Granadia-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Granadia-Bold.svg#JF Flat Regular") format("svg"), url("../fonts/Granadia-Bold.woff") format("woff"), url("../fonts/Granadia-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Granadia-Bold";
+    src: url("../fonts/Granadia-Book.eot");
+    src: url("../fonts/Granadia-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Granadia-Book.svg#JF Flat Regular") format("svg"), url("../fonts/Granadia-Book.woff") format("woff"), url("../fonts/Granadia-Book.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "din";
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    padding-top: 90px;
+    height: 100vh;
+    margin-bottom: 5em;
+}
+
+.vidio-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.logo {
+    height: 108px;
+}
+
+.title h1 {
+    margin-top: 80px;
+    font-size: 53px;
+    font-family: "Granadia-Bold";
+    color: #D12169;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.desc {
+    font-family: "din meduim";
+}
+
+.text-meduim {
+    font-family: "din meduim";
+    font-size: 17px;
+}
+
+.text-lighter {
+    font-family: "Gotham Rounded lighter";
+    font-size: 17px;
+}
+
+.title p {
+    font-size: 26.84px;
+    color: #ca1787;
+}
+
+.title p.en-font {
+    font-size: 27px;
+    color: #483185;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-family: 'Gotham Rounded bold';
+    font-weight: bold;
+}
+
+.light {
+    font-family: 'Gotham Rounded medium';
+    font-weight: lighter;
+}
+
+.video-link {
+     color: #ffffff;
+    padding: 0.7em 1em;
+    background-color: #d12169;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Granadia-Bold';
+
+}
+
+.video-link:hover,
+.video-link:focus,
+.video-link:active {
+    background-color: #b9024d;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.videoContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.videoContainer video {
+    width: 100%;
+    height: auto;
+    margin-bottom: -0.4em;
+}
+
+.text-style {
+    font-size: 18px;
+    color: #483185;
+}
+
+.mt-6 {
+    margin-top: 6em;
+}
+
+footer {
+    font-family: "Gotham Rounded";
+    padding:50px 0px;
+    background-color: #483185;
+}
+
+footer h4 {
+    margin-bottom: 1.3em;
+}
+
+.footer-img {
+    height: 35px;
+    margin-bottom: 4em;
+}
+
+.footer-img2 {
+    height: 65px;
+    margin-bottom: 4em;
+}
+
+.font-size-2 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.line-hight {
+    line-height: 2em;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+@media only screen and (min-width: 991px) {
+    .dt-video {
+        display: block;
+    }
+    .mb-video {
+        display: none;
+    }
+    .no-padding {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 669px) {
+    .dt-video {
+        display: none;
+    }
+    .mb-video {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    /* .mt-10 {
+        margin-top: 330px;
+    }*/
+    .logo {
+        height: 80px;
+    }
+    .vidio-box {
+        position: relative;
+        height: 503px !important;
+    }
+    .header {
+        padding-top: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .vidio-box {
+        position: relative;
+        height: 783px;
+    }
+    .dt-video {
+        display: none;
+    }
+    .mb-video {
+        display: block;
+        width: 100%;
+    }
+    .mmt-1 {
+        margin-top: 2em;
+    }
+    .no-padding {
+        text-align: center;
+    }
+    .header {
+        padding-top: 0px !important;
+        height: auto !important;
+        margin-bottom: 90px;
+    }
+    .footer-img {
+        width: 100%;
+        margin: 2 auto;
+    }
+    .footer-img2 {
+        width: 80%;
+        margin: 2 auto;
+    }
+    footer {
+        padding: 6em 0em 8em 0em;
+    }
+    .mmt-4 {
+        margin-top: 4em;
+        text-align: center;
+    }
+    .title h1 {
+        font-size: 35px;
+    }
+    .title p.en-font {
+        font-size: 20px;
+    }
+    .title p {
+        font-size: 20px;
+        color: #ca1787;
+    }
+    .video-link {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /*.mt-10 {
+        margin-top: 287px;
+    }
+*/
+    .vidio-box {
+        height: 377px !important;
+    }
+}
+.video-link span{display:inline-block;padding-left:15px;}
+.about-container{background-color:#4A2E87;padding: 80px 0px;}
+.content .title{color: #fff;margin-top: 0px;
+    font-size: 45px;     line-height: 120%;   padding-right: 10px;font-family:Granadia-Bold;    font-weight: 800;margin-bottom: 50px;  position: relative;}
+.content span{
+  height: 100px;
+    background-color: #D12169;
+    display: inline-block;
+    width: 4px;
+    position: absolute;
+    float: right;
+    top: 14px;
+    right: -8px;
+    border-radius: 9px;
+}
+.content .desc{
+    color: #fff;
+    font-size: 18px;
+    font-family: Granadia-Bold;
+}
+
+.channels-content .title{color: #4A2E87;margin-top: 0px;
+    font-size: 45px;     line-height: 120%;   padding-right: 10px;font-family:Granadia-Bold;    font-weight: 800;margin-bottom: 100px;position:relative}
+.channels-content span{
+   height: 90px;
+    background-color: #D12169;
+    display: inline-block;
+    width: 4px;
+    position: absolute;
+    float: right;
+    top: 18px;
+    right: -8px;
+    border-radius: 9px;
+}
+.item h4{color: #ed6a18;
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 130%;
+    margin-bottom: 10px;
+    font-family: Granadia-Bold;
+    font-weight: bold;    margin-bottom: 15px;}
+.item .item-desc{
+    color:#4A2E87;font-size:16px;
+
+    font-family: 'JF Flat Regular';
+
+}
+.item img {    margin-bottom: 20px;}
+.item2 h4{color:#D12169}
+.item3 h4{color:#249CF2}
+.about-channels-container .clearfix .col-md-4{margin-bottom:100px;}
+.hilton-img{    max-width: 100px;}
+.item4 h4{color:#1E4A6E}
+.item5 h4{color:#FFDA00}
+.item6 h4{color:#00AF41}
+.about-channels-container{padding:80px 0px}
+.col-1 h4{font-family:Granadia;font-size:25px;color:#fff;font-weight:bold
+}
+.col-1 .contact-item span{display:block}
+.col-1 .contact-item{margin-bottom:10px;font-family:Granadia-Bold;color:#fff;font-size:12px;}
+.contact-item i{font-size:20px;color:#fff;margin:5px;}
+.input-group-prepend{display:inline-block}
+.input-group .form-control{width:60%;
+border-bottom-right-radius: 24px !important;
+    border-top-right-radius: 24px!important;
+    border-bottom-left-radius: 0px!important;
+    border-top-left-radius: 0px!important;
+}
+
+.btn-outline-secondary{
+    background-color: #D12169;
+    color: #fff;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+    left: 18px;
+    position: relative;
+    z-index: 22;
+}
+.contact-item p{    font-size: 13px;
+    font-weight: bold;
+    margin-top: 13px;margin-bottom:16px;
+    display: inline-block;}
+.ex-map{max-width:100%}
+.copyright-container{background-color:#fff;padding:10px 0px}
+.copyright-container p{color:#4A2E87;font-size:16px;}
+
