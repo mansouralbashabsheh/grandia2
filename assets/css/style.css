@@ -178,6 +178,7 @@ body {
 }
 
 footer {
+      margin-top: 7em;
     font-family: "Gotham Rounded";
     padding:50px 0px;
     background-color: #483185;
