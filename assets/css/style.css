@@ -311,16 +311,14 @@ footer h4 {
 .video-link span{display:inline-block;padding-left:15px;}
 .about-container{background-color:#4A2E87;padding: 80px 0px;}
 .content .title{color: #fff;margin-top: 0px;
-    font-size: 45px;     line-height: 120%;   padding-right: 10px;font-family:Granadia-Bold;    font-weight: 800;margin-bottom: 50px;  position: relative;}
+    font-size: 45px;     line-height: 120%;   padding-right: 10px;font-family:Granadia-Bold;    font-weight: 800;margin-bottom: 50px; clear:both}
 .content span{
-  height: 100px;
-    background-color: #D12169;
+    height: 80px;
     display: inline-block;
-    width: 4px;
-    position: absolute;
     float: right;
-    top: 14px;
-    right: -8px;
+    border-right: 4px solid #D12169;
+    margin-top: 25px;
+    margin-left: 15px;
     border-radius: 9px;
 }
 .content .desc{
@@ -332,16 +330,15 @@ footer h4 {
 .channels-content .title{color: #4A2E87;margin-top: 0px;
     font-size: 45px;     line-height: 120%;   padding-right: 10px;font-family:Granadia-Bold;    font-weight: 800;margin-bottom: 100px;position:relative}
 .channels-content span{
-   height: 90px;
-    background-color: #D12169;
+height: 80px;
     display: inline-block;
-    width: 4px;
-    position: absolute;
     float: right;
-    top: 18px;
-    right: -8px;
+    border-right: 4px solid #D12169;
+    margin-top: 25px;
+    margin-left: 15px;
     border-radius: 9px;
 }
+.channels-content {clear:both}
 .item h4{color: #ed6a18;
     font-weight: 100;
     font-size: 19px;
@@ -396,11 +393,3 @@ border-bottom-right-radius: 24px !important;
 .copyright-container{background-color:#fff;padding:10px 0px}
 .copyright-container p{color:#4A2E87;font-size:16px;}
 
-@media screen and (max-width:768px){
-  
-
-.content span {
-    height: 80px;   top: 22%;}
-.channels-content span{  height: 80px;   top: 22%;}
-
-}
