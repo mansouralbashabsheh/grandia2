@@ -313,7 +313,7 @@ footer h4 {
 .content .title{color: #fff;margin-top: 0px;
     font-size: 45px;     line-height: 120%;   padding-right: 10px;font-family:Granadia-Bold;    font-weight: 800;margin-bottom: 50px; clear:both}
 .content span{
-height: 80px;
+height: 75px;
     display: inline-block;
     /* float: right; */
     border-right: 4px solid #D12169;
@@ -333,7 +333,7 @@ height: 80px;
 .channels-content .title{color: #4A2E87;margin-top: 0px;
     font-size: 45px;     line-height: 120%;   padding-right: 10px;font-family:Granadia-Bold;    font-weight: 800;margin-bottom: 100px;position:relative}
 .channels-content span{
-height: 80px;
+height: 75px;
     display: inline-block;
     /* float: right; */
     border-right: 4px solid #D12169;
